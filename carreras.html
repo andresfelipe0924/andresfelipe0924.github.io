@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Carreras</title>
+  <link rel="stylesheet" href="carreras.css">
+  <link rel="website icon" type="png" href="img/logo.png">
+</head>
+
+<header>
+  <!-- INICIO NAV BAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="carreras.html">Carreras</a></li>
+      <li class="dropdown">
+        <a>Instituciones</a>
+        <ul class="dropdown-content">
+          <li><a href="universidades.html">Universidades</a></li>
+          <li><a href="inst tecnicos.html">Institutos Técnicos</a></li>
+        </ul>
+      </li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+    </ul>
+  </nav>
+  <!-- FIN NAV BAR -->
+</header>
+
+<body>
+  <main>
+    <!-- INICIO TEXTO CARRERAS -->
+    <div class="carreras-container">
+      <div class="carreras-info">
+        <h2>¿CUAL ES TU CARRERA SOÑADA?</h2>
+        <p>Estudiar una carrera universitaria permite adquirir conocimientos especializados y desarrollar habilidades
+          tanto técnicas como personales, esenciales para enfrentar los desafíos del ámbito laboral. Además, la
+          formación académica mejora las oportunidades de empleo y estabilidad económica, ya que los empleadores valoran
+          la educación superior y, en general, los profesionales universitarios suelen obtener salarios más altos.</p>
+        <p>A lo largo de la carrera, también se fomentan competencias como la comunicación, la resolución de problemas y
+          el trabajo en equipo, que son vitales en cualquier profesión. Además, la universidad facilita la creación de
+          redes de contactos que pueden abrir nuevas oportunidades a nivel profesional.</p>
+        <p>Estudiar una carrera universitaria no solo beneficia al individuo, sino también a la sociedad en general. Los
+          egresados tienen la capacidad de aportar soluciones y contribuir al desarrollo y bienestar de sus comunidades,
+          mejorando así la calidad de vida de todos.</p>
+
+      </div>
+    </div>
+    <!-- FIN TEXTO CARRERAS -->
+
+    <!-- inicio boton -->
+    <button id="backToTop" class="uiverse">
+      <div class="wrapper">
+        <span>Volver Arriba</span>
+        <div class="circle circle-12"></div>
+        <div class="circle circle-11"></div>
+        <div class="circle circle-10"></div>
+        <div class="circle circle-9"></div>
+        <div class="circle circle-8"></div>
+        <div class="circle circle-7"></div>
+        <div class="circle circle-6"></div>
+        <div class="circle circle-5"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-1"></div>
+      </div>
+    </button>
+    <script>
+      const backToTopButton = document.getElementById('backToTop');
+
+      window.onscroll = function () {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          backToTopButton.classList.add('show');
+        } else {
+          backToTopButton.classList.remove('show');
+        }
+      };
+
+      backToTopButton.onclick = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+    </script>
+    <!-- fin boton -->
+
+    <!-- INICIO TARJETAS -->
+    <div class="container-fluid md-15">
+      <div class="containerl">
+        <a href="#medicina" class="tarjetas tarjetas-1">
+          <div class="tarjetas_content">
+            <h4 class="name">MEDICINA</h4>
+          </div>
+        </a>
+        <a href="#ing-sistemas" class="tarjetas tarjetas-2">
+          <div class="tarjetas_content">
+            <h4 class="name">ING DE SISTEMAS</h4>
+          </div>
+        </a>
+        <a href="#ing-industrial" class="tarjetas tarjetas-3">
+          <div class="tarjetas_content">
+            <h4 class="name">ING INDUSTRIAL</h4>
+          </div>
+        </a>
+        <a href="#derecho" class="tarjetas tarjetas-4">
+          <div class="tarjetas_content">
+            <h4 class="name">DERECHO</h4>
+          </div>
+        </a>
+        <a href="#contaduria" class="tarjetas tarjetas-5">
+          <div class="tarjetas_content">
+            <h4 class="name">CONTADURIA</h4>
+          </div>
+        </a>
+        <a href="#ing-civil" class="tarjetas tarjetas-6">
+          <div class="tarjetas_content">
+            <h4 class="name">ING CIVIL</h4>
+          </div>
+        </a>
+        <a href="#admin-de-empresas" class="tarjetas tarjetas-7">
+          <div class="tarjetas_content">
+            <h4 class="name">ADMIN DE EMPRESAS</h4>
+          </div>
+        </a>
+        <a href="#psicologia" class="tarjetas tarjetas-8">
+          <div class="tarjetas_content">
+            <h4 class="name">PSICOLOGIA</h4>
+          </div>
+        </a>
+        <a href="#ing-minas" class="tarjetas tarjetas-9">
+          <div class="tarjetas_content">
+            <h4 class="name">ING DE MINAS</h4>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <!-- FIN TARJETAS -->
+
+    <!-- INICIO CARRERA 1 -->
+    <section id="medicina">
+      <h2>MEDICINA</h2>
+      <img src="img/medicina2.png" alt="" />
+      <p>La carrera de Medicina forma a profesionales capacitados para diagnosticar, tratar y prevenir enfermedades, así
+        como para promover la salud en individuos y comunidades. A lo largo de sus estudios, los estudiantes de medicina
+        adquieren conocimientos en áreas como anatomía, biología, farmacología, y patología, además de habilidades
+        clínicas fundamentales para brindar atención médica de calidad. La formación incluye tanto teoría como práctica
+        en hospitales y centros de salud, donde los futuros médicos aplican sus conocimientos en escenarios reales. Es
+        una carrera de gran responsabilidad y compromiso, con un enfoque en mejorar la calidad de vida y el bienestar de
+        las personas.</p>
+      <p>Para ingresar a la carrera de Medicina en una universidad colombiana, se requiere un puntaje elevado en la
+        prueba Saber 11 (ICFES). Aunque el puntaje mínimo puede variar dependiendo de la universidad, generalmente se
+        requiere un puntaje superior a 350 puntos. En universidades más competitivas y reconocidas, como la Universidad
+        Nacional de Colombia o la Universidad de Antioquia, el puntaje necesario puede superar los 370 puntos, ya que la
+        demanda es muy alta y los cupos son limitados.</p>
+    </section>
+    <!-- FIN CARRERA 1 -->
+
+    <!-- INICIO CARRERA 2 -->
+    <section id="ing-sistemas">
+      <h2>INGENIERÍA EN SISTEMAS</h2>
+      <img src="img/ingsistemas.png" alt="" />
+      <p>La Ingeniería en Sistemas es una carrera enfocada en el diseño, desarrollo y gestión de sistemas de tecnología
+        de la información. Los profesionales en esta área adquieren habilidades para crear software, administrar redes,
+        y solucionar problemas tecnológicos complejos. La formación incluye estudios en programación, arquitectura de
+        sistemas, bases de datos, y seguridad informática, preparando a los estudiantes para enfrentar los desafíos en
+        un mundo cada vez más digitalizado. Además, los ingenieros en sistemas están capacitados para trabajar en
+        diversos sectores, desde empresas tecnológicas hasta organizaciones gubernamentales, contribuyendo a la
+        innovación y eficiencia en la gestión de la información.</p>
+      <p>Para ingresar a la carrera de Ingeniería en Sistemas en una universidad colombiana, los aspirantes deben
+        obtener un puntaje significativo en la prueba Saber 11 (ICFES). Aunque el puntaje mínimo puede variar entre
+        instituciones, generalmente se requiere un puntaje superior a 300 puntos. En universidades más competitivas como
+        la Universidad Nacional de Colombia o la Universidad de los Andes, los requisitos pueden ser más altos,
+        superando los 350 puntos, debido a la alta demanda y al nivel de exigencia del programa. Es recomendable revisar
+        los requisitos específicos de cada universidad para obtener una guía precisa sobre el puntaje necesario.</p>
+    </section>
+    <!-- FIN CARRERA 2 -->
+
+    <!-- INICIO CARRERA 3 -->
+    <section id="ing-industrial">
+      <h2>INGENIERÍA INDUSTRIAL</h2>
+      <img src="img/ingenieria-industrial.png" alt="" />
+      <p>La Ingeniería Industrial es una carrera que se centra en la optimización de procesos y sistemas dentro de las
+        organizaciones. Los ingenieros industriales trabajan en la mejora de la eficiencia, reducción de costos y
+        aumento de la productividad mediante el análisis y diseño de sistemas de producción y gestión. Su formación
+        abarca áreas como administración de operaciones, logística, análisis de datos, y gestión de calidad, preparando
+        a los estudiantes para enfrentar desafíos en diversos sectores, desde manufactura hasta servicios. La carrera
+        combina principios de ingeniería con técnicas de administración para resolver problemas complejos y mejorar el
+        rendimiento de las empresas.</p>
+      <p>Para ingresar a la carrera de Ingeniería Industrial en una universidad colombiana, es necesario obtener un
+        puntaje competitivo en la prueba Saber 11 (ICFES). Aunque los requisitos pueden variar entre instituciones,
+        generalmente se requiere un puntaje de al menos 300 puntos. En universidades con alta demanda y prestigio, como
+        la Universidad Nacional de Colombia o la Universidad de los Andes, el puntaje necesario suele ser más alto, a
+        menudo superando los 350 puntos. Es aconsejable verificar los requisitos específicos de cada universidad para
+        asegurar el cumplimiento de los criterios de admisión.</p>
+    </section>
+    <!-- FIN CARRERA 3 -->
+
+    <!-- INICIO CARRERA 4 -->
+    <section id="derecho">
+      <h2>DERECHO</h2>
+      <img src="img/derecho2.png" alt="" />
+      <p>La carrera de Derecho se centra en el estudio y la aplicación de las normas jurídicas que rigen las relaciones
+        en la sociedad. Los estudiantes de Derecho aprenden a interpretar y aplicar leyes, desarrollar habilidades de
+        argumentación y negociación, y comprender los sistemas judiciales y legales. La formación abarca áreas como el
+        derecho civil, penal, laboral, y constitucional, preparando a los futuros abogados para defender los derechos de
+        las personas, asesorar a organizaciones, y participar en la creación y reforma de políticas públicas.</p>
+      <p>Para ingresar a la carrera de Derecho en una universidad colombiana, los aspirantes deben obtener un puntaje
+        competitivo en la prueba Saber 11 (ICFES). Aunque los requisitos pueden variar según la institución,
+        generalmente se requiere un puntaje de al menos 320 puntos. En universidades de alta demanda y prestigio, como
+        la Universidad de los Andes o la Pontificia Universidad Javeriana, el puntaje necesario puede ser mayor,
+        superando los 350 puntos, debido a la alta competencia y al nivel de exigencia del programa. Es recomendable
+        consultar los requisitos específicos de cada universidad para conocer los criterios exactos de admisión.</p>
+    </section>
+    <!-- FIN CARRERA 4 -->
+
+    <!-- INICIO CARRERA 5 -->
+    <section id="contaduria">
+      <h2>CONTADURÍA PÚBLICA Y FINANZAS</h2>
+      <img src="img/contaduria.png" alt="" />
+      <p>La carrera de Contaduría Pública y Finanzas se enfoca en la gestión y análisis de la información financiera
+        dentro de las organizaciones. Los estudiantes adquieren habilidades para preparar y auditar estados financieros,
+        realizar análisis económicos y gestionar recursos financieros. La formación incluye estudios en contabilidad,
+        auditoría, fiscalidad, y finanzas, capacitando a los futuros profesionales para tomar decisiones estratégicas
+        basadas en datos financieros y cumplir con regulaciones contables y fiscales. La carrera es esencial para
+        garantizar la transparencia y eficiencia en la administración de recursos económicos en cualquier tipo de
+        entidad.</p>
+      <p>Para ingresar a la carrera de Contaduría Pública y Finanzas en una universidad colombiana, los aspirantes deben
+        presentar un puntaje destacado en la prueba Saber 11 (ICFES). Aunque los requisitos pueden variar entre
+        instituciones, generalmente se requiere un puntaje mínimo de 280 a 320 puntos. En universidades de alta demanda
+        y prestigio, como la Universidad de los Andes o la Pontificia Universidad Javeriana, el puntaje necesario puede
+        superar los 350 puntos, debido a la competencia y al nivel de exigencia del programa. Es recomendable verificar
+        los requisitos específicos de cada universidad para obtener detalles precisos sobre la admisión.</p>
+    </section>
+    <!-- FIN CARRERA 5 -->
+
+    <!-- INICIO CARRERA 6 -->
+    <section id="ing-civil">
+      <h2>INGENIERÍA CIVIL</h2>
+      <img src="img/ingenieria civil2.png" alt="" />
+      <p>La Ingeniería Civil es una carrera que se enfoca en el diseño, construcción y mantenimiento de infraestructuras
+        y obras públicas. Los ingenieros civiles trabajan en proyectos como puentes, carreteras, edificios, presas y
+        sistemas de abastecimiento de agua, aplicando principios de matemáticas, física y mecánica para asegurar que las
+        estructuras sean seguras, funcionales y duraderas. La formación incluye el estudio de áreas como la ingeniería
+        estructural, geotécnica, hidráulica y de transporte, preparando a los estudiantes para enfrentar desafíos
+        complejos en el campo de la construcción y la planificación urbana.</p>
+      <p>Para ingresar a la carrera de Ingeniería Civil en una universidad colombiana, los aspirantes deben presentar un
+        puntaje destacado en la prueba Saber 11 (ICFES). Aunque el puntaje mínimo puede variar según la institución, en
+        general se requiere un puntaje superior a 300 puntos. En universidades de alta demanda y prestigio, como la
+        Universidad Nacional de Colombia o la Universidad de los Andes, el puntaje requerido puede ser mayor,
+        frecuentemente superior a 350 puntos, debido a la competencia y el nivel de exigencia del programa. Es
+        recomendable revisar los requisitos específicos de cada universidad para conocer los criterios exactos de
+        admisión.</p>
+    </section>
+    <!-- FIN CARRERA 6 -->
+
+    <!-- INICIO CARRERA 7 -->
+    <section id="admin-de-empresas">
+      <h2>ADMINISTRACIÓN DE EMPRESAS</h2>
+      <img src="img/administracion-de-empresas.png" alt="" />
+      <p>La carrera de Administración de Empresas se centra en la formación de profesionales capaces de gestionar,
+        dirigir y optimizar los recursos de una organización para alcanzar sus objetivos estratégicos. Los estudiantes
+        aprenden sobre áreas clave como finanzas, marketing, recursos humanos, y operaciones, y desarrollan habilidades
+        en liderazgo, toma de decisiones y análisis de mercado. La carrera prepara a los futuros administradores para
+        enfrentar desafíos empresariales, implementar estrategias efectivas y mejorar la eficiencia organizacional en un
+        entorno competitivo y globalizado.</p>
+      <p>Para ingresar a la carrera de Administración de Empresas en una universidad colombiana, los aspirantes deben
+        obtener un puntaje significativo en la prueba Saber 11 (ICFES). Aunque el puntaje mínimo puede variar entre
+        instituciones, generalmente se requiere un puntaje de al menos 280 a 320 puntos. En universidades de alta
+        demanda y prestigio, como la Universidad de los Andes o la Pontificia Universidad Javeriana, el puntaje
+        necesario puede superar los 350 puntos, dado el nivel de competencia y la calidad del programa. Es aconsejable
+        consultar los requisitos específicos de cada universidad para conocer los criterios exactos de admisión.</p>
+
+    </section>
+    <!-- FIN CARRERA 7 -->
+
+    <!-- INICIO CARRERA 8 -->
+    <section id="psicologia">
+      <h2>PSICOLOGÍA</h2>
+      <img src="img/psicologia.png" alt="" />
+      <p>La carrera de Psicología se dedica al estudio del comportamiento humano y los procesos mentales, buscando
+        comprender, prevenir y tratar trastornos emocionales y psicológicos. Los estudiantes de Psicología adquieren
+        conocimientos sobre teorías psicológicas, métodos de investigación, y técnicas de intervención y terapia. La
+        formación abarca áreas como psicología clínica, cognitiva, del desarrollo y organizacional, preparando a los
+        futuros psicólogos para trabajar en diferentes contextos, como consultorios, hospitales, y empresas, y
+        contribuir al bienestar emocional y mental de las personas.</p>
+      <p>Para ingresar a la carrera de Psicología en una universidad colombiana, los aspirantes deben obtener un puntaje
+        competitivo en la prueba Saber 11 (ICFES). Aunque los requisitos pueden variar entre instituciones, generalmente
+        se requiere un puntaje mínimo de 270 a 320 puntos. En universidades de alta demanda y prestigio, como la
+        Universidad de los Andes o la Pontificia Universidad Javeriana, el puntaje necesario puede ser más alto, a
+        menudo superior a 350 puntos, debido a la alta competencia y al nivel de exigencia del programa. Es recomendable
+        consultar los requisitos específicos de cada universidad para conocer los criterios exactos de admisión.</p>
+
+    </section>
+    <!-- FIN CARRERA 8 -->
+
+    <!-- INICIO CARRERA 9 -->
+    <section id="ing-minas">
+      <h2>INGENIERÍA DE MINAS</h2>
+      <img src="img/Ing-Minas.png" alt="" />
+      <p>La carrera de Ingeniería de Minas se centra en el estudio y aplicación de técnicas para la exploración,
+        extracción y gestión de recursos minerales de manera segura, sostenible y eficiente. Los ingenieros de minas se
+        encargan de planificar y supervisar operaciones mineras, implementando tecnologías y prácticas que minimicen el
+        impacto ambiental y mejoren la productividad. Además, trabajan en estrecha colaboración con otros profesionales
+        para diseñar métodos de extracción que aseguren la seguridad de los trabajadores y optimicen los procesos de
+        recuperación de recursos minerales.</p>
+      <p>Para ingresar a la carrera de Ingeniería de Minas en las principales universidades públicas de Colombia, como
+        la Universidad Nacional, la Universidad de Antioquia y la Universidad Industrial de Santander, generalmente se
+        requiere un puntaje alto en la Prueba Saber 11. Este puntaje puede variar entre instituciones, pero, por lo
+        general, un puntaje global entre 320 y 350 es un buen objetivo para aspirantes a universidades de alto nivel. Es
+        importante verificar los requisitos específicos de cada universidad, ya que pueden variar ligeramente de un año
+        a otro y dependiendo de la demanda del programa.</p>
+
+    </section>
+    <!-- FIN CARRERA 9 -->
+
+  </main>
+
+  <!-- inicio pie de pagina -->
+  <footer class="footer">
+    <div class="social-media">
+      <div class="container">
+        <a href="https://www.instagram.com/escogetufuturo/">
+            <button class="Btn instagram">
+                <svg class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                    </path>
+                </svg>
+                <span class="text">Instagram</span>
+            </button>
+
+        </a>
+        <a href="https://wa.link/dfgrx4">
+            <button class="Btn whatsapp">
+                <svg class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M380.9 97.1C339.3 55.5 283.5 32 224 32 100.3 32 0 132.3 0 256c0 45.6 12 89 34.7 127.4L0 480l101.2-33.2c36.5 19.8 77.8 30.2 118.8 30.2h.1c123.7 0 224-100.3 224-224 0-59.5-23.5-115.3-65.1-157.9zM224 438.3c-36.1 0-72.4-9.7-103.5-28.1l-7.4-4.3-61.2 20 20.4-59.2-4.8-7.9C47.6 322.6 37 289.9 37 256c0-103.4 84.6-188 188-188 50.2 0 97.3 19.6 132.8 55.1s55.2 82.6 55.2 132.8c0 103.4-84.6 188-188 188zm101.2-138.9c-5.5-2.8-32.5-16-37.6-17.8-5.1-1.9-8.9-2.8-12.7 2.8s-14.5 17.8-17.8 21.5c-3.2 3.7-6.5 4.2-12 1.4-32.5-16-53.8-28.7-75.4-65.1-5.7-9.8 5.7-9.1 16-30.4 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.7-30.7-17.4-42.2-4.6-11.1-9.3-9.4-12.7-9.6-3.2-.2-6.9-.2-10.6-.2s-9.7 1.4-14.7 6.9c-5.1 5.5-19.4 19-19.4 46.3s19.9 53.7 22.7 57.5c2.8 3.7 38.9 59.3 94.4 83.2 13.2 5.7 23.5 9.1 31.5 11.7 13.2 4.2 25.3 3.6 34.8 2.2 10.6-1.6 32.5-13.3 37.1-26.2 4.6-12.8 4.6-23.9 3.2-26.2-1.3-2.4-5-3.8-10.5-6.5z">
+                    </path>
+                </svg>
+                <span class="text">WhatsApp</span>
+            </button>
+
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100006570737726">
+            <button class="Btn facebook">
+                <svg class="svgIcon" viewBox="0 0 320 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M279.14 288l14.22-92.66h-88.91V117.26c0-25.35 12.42-50.06 52.24-50.06H293V3.1S259.43 0 225.36 0C141.09 0 89.44 54.22 89.44 148.25v47.09H0v92.66h89.44V512h107.7V288z">
+                    </path>
+                </svg>
+                <span class="text">Facebook</span>
+            </button>
+        </a> 
+        </div>
+    </div>
+    <p>Todos los derechos reservados 2024</p>
+  </footer>
+  <!-- fin pie de pagina -->
+
+</body>
+
+</html>
